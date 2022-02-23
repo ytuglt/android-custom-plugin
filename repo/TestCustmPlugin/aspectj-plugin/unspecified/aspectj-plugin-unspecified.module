@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "TestCustmPlugin",
+    "module": "aspectj-plugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "wa4wmdymireylbcnmusxsr5erm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aspectj-plugin-unspecified.jar",
+          "url": "aspectj-plugin-unspecified.jar",
+          "size": 7954,
+          "sha512": "fb33456aeb96ad027459ae7391979f67f8148ec25990b4919c64a862dea10e4277b61e65d8a802bfd8b39325e76efb0bc19b0b7f714f6b88d611cdbd63f1783e",
+          "sha256": "a95a5ace005447d5f1616adabde0683750471f92be7f81a7b91fbf73be030159",
+          "sha1": "bbf565d1c8c2ea276250ecd84af3073f015ab21e",
+          "md5": "29c0873fe52e932873bb9e0425035235"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjrt",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjtools",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aspectj-plugin-unspecified.jar",
+          "url": "aspectj-plugin-unspecified.jar",
+          "size": 7954,
+          "sha512": "fb33456aeb96ad027459ae7391979f67f8148ec25990b4919c64a862dea10e4277b61e65d8a802bfd8b39325e76efb0bc19b0b7f714f6b88d611cdbd63f1783e",
+          "sha256": "a95a5ace005447d5f1616adabde0683750471f92be7f81a7b91fbf73be030159",
+          "sha1": "bbf565d1c8c2ea276250ecd84af3073f015ab21e",
+          "md5": "29c0873fe52e932873bb9e0425035235"
+        }
+      ]
+    }
+  ]
+}

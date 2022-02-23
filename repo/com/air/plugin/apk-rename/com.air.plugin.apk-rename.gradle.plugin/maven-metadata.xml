@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.air.plugin.apk-rename</groupId>
+  <artifactId>com.air.plugin.apk-rename.gradle.plugin</artifactId>
+  <versioning>
+    <latest>unspecified</latest>
+    <release>unspecified</release>
+    <versions>
+      <version>unspecified</version>
+    </versions>
+    <lastUpdated>20220223083024</lastUpdated>
+  </versioning>
+</metadata>
